@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facilities | Hotel Africana</title>
+
+<style>
+* { box-sizing:border-box; margin:0; padding:0; }
+
+body {
+    font-family:Arial,sans-serif;
+    background:#faf8f3;
+    color:#333;
+}
+
+nav {
+    background:#173b2b;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo {
+    color:#e4b04a;
+    font-size:25px;
+    font-weight:bold;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    margin-left:18px;
+    font-size:14px;
+}
+
+nav a:hover { color:#e4b04a; }
+
+.header {
+    background:#173b2b;
+    color:white;
+    text-align:center;
+    padding:75px 20px;
+}
+
+.header h1 {
+    font-size:48px;
+    color:#e4b04a;
+}
+
+.facilities {
+    max-width:1100px;
+    margin:auto;
+    padding:70px 20px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.facility {
+    background:white;
+    padding:35px;
+    text-align:center;
+    border-radius:10px;
+    border-top:5px solid #c99432;
+    box-shadow:0 5px 18px rgba(0,0,0,.07);
+}
+
+.facility .icon {
+    font-size:45px;
+}
+
+.facility h2 {
+    color:#173b2b;
+    margin:15px 0;
+}
+
+footer {
+    background:#173b2b;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:800px) {
+    nav { flex-direction:column; }
+    nav a { display:inline-block; margin:8px 4px; }
+    .facilities { grid-template-columns:1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">HOTEL AFRICANA</div>
+<div>
+<a href="Home.html">Home</a>
+<a href="about.html">About</a>
+<a href="rooms.html">Rooms</a>
+<a href="dining.html">Dining</a>
+<a href="facilities.html">Facilities</a>
+<a href="conferences.html">Conferences</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<header class="header">
+<h1>Our Facilities</h1>
+<p>Everything you need for a comfortable stay</p>
+</header>
+
+<section class="facilities">
+
+<div class="facility">
+<div class="icon">🏊</div>
+<h2>Swimming Pool</h2>
+<p>Take a refreshing break and enjoy our outdoor swimming facilities.</p>
+</div>
+
+<div class="facility">
+<div class="icon">💪</div>
+<h2>Health Club</h2>
+<p>Maintain your wellness routine while staying at the hotel.</p>
+</div>
+
+<div class="facility">
+<div class="icon">📶</div>
+<h2>Wi-Fi</h2>
+<p>Stay connected with internet access for business and leisure.</p>
+</div>
+
+<div class="facility">
+<div class="icon">🚗</div>
+<h2>Parking</h2>
+<p>Convenient parking facilities are available for hotel guests.</p>
+</div>
+
+<div class="facility">
+<div class="icon">🎵</div>
+<h2>Entertainment</h2>
+<p>Enjoy entertainment and relaxing moments during your stay.</p>
+</div>
+
+<div class="facility">
+<div class="icon">🛎️</div>
+<h2>Room Service</h2>
+<p>Enjoy convenient service designed to make your stay comfortable.</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Hotel Africana Kampala</p>
+</footer>
+
+</body>
+</html>

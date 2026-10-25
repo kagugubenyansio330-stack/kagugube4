@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Hotel Africana</title>
+
+<style>
+* { box-sizing:border-box; margin:0; padding:0; }
+
+body {
+    font-family:Arial,sans-serif;
+    background:#faf8f3;
+    color:#333;
+}
+
+nav {
+    background:#173b2b;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo {
+    color:#e4b04a;
+    font-size:25px;
+    font-weight:bold;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    margin-left:18px;
+    font-size:14px;
+}
+
+nav a:hover { color:#e4b04a; }
+
+.hero {
+    background:#173b2b;
+    color:white;
+    text-align:center;
+    padding:75px 20px;
+}
+
+.hero h1 {
+    font-size:48px;
+    color:#e4b04a;
+}
+
+.contact {
+    max-width:1100px;
+    margin:auto;
+    padding:65px 20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:45px;
+}
+
+.info h2,
+.form h2 {
+    color:#173b2b;
+    margin-bottom:25px;
+    font-size:30px;
+}
+
+.info p {
+    margin:18px 0;
+    color:#555;
+}
+
+.info strong {
+    color:#173b2b;
+}
+
+form {
+    background:white;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+input,
+textarea,
+select {
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    font-family:Arial;
+}
+
+textarea {
+    height:130px;
+    resize:vertical;
+}
+
+button {
+    width:100%;
+    padding:14px;
+    border:0;
+    background:#c99432;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+button:hover {
+    background:#a87520;
+}
+
+.map {
+    max-width:1100px;
+    margin:0 auto 60px;
+    padding:30px;
+    background:#e8dfcc;
+    text-align:center;
+}
+
+footer {
+    background:#173b2b;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:800px) {
+    nav { flex-direction:column; }
+    nav a { display:inline-block; margin:8px 4px; }
+    .contact { grid-template-columns:1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">HOTEL AFRICANA</div>
+<div>
+<a href="Home.html">Home</a>
+<a href="about.html">About</a>
+<a href="rooms.html">Rooms</a>
+<a href="dining.html">Dining</a>
+<a href="facilities.html">Facilities</a>
+<a href="conferences.html">Conferences</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>Contact Us</h1>
+<p>We would love to hear from you</p>
+</section>
+
+<section class="contact">
+
+<div class="info">
+
+<h2>Get In Touch</h2>
+
+<p>
+<strong>Address:</strong><br>
+Plot 2–4 Wampewo Avenue, Kololo, Kampala, Uganda
+</p>
+
+<p>
+<strong>Telephone:</strong><br>
++256 414 777000
+</p>
+
+<p>
+<strong>Email:</strong><br>
+africana@hotelafricana.com
+</p>
+
+<p>
+<strong>Website:</strong><br>
+hotelafricana.com
+</p>
+
+<p>
+Whether you are looking for accommodation, planning an event,
+or making a conference enquiry, our team is ready to assist.
+</p>
+
+</div>
+
+<div class="form">
+
+<h2>Send an Enquiry</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number">
+
+<select>
+<option>Choose Enquiry Type</option>
+<option>Room Booking</option>
+<option>Conference</option>
+<option>Wedding</option>
+<option>Restaurant</option>
+<option>General Enquiry</option>
+</select>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<div class="map">
+<h2>Visit Hotel Africana</h2>
+<p>Plot 2–4 Wampewo Avenue, Kololo, Kampala, Uganda</p>
+<br>
+<a href="https://www.google.com/maps/search/?api=1&query=Hotel+Africana+Kampala"
+style="background:#173b2b;color:white;padding:12px 22px;text-decoration:none;">
+Open Location
+</a>
+</div>
+
+<footer>
+<p>© 2026 Hotel Africana Kampala</p>
+</footer>
+
+</body>

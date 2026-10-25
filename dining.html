@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dining | Hotel Africana</title>
+
+<style>
+* { box-sizing:border-box; margin:0; padding:0; }
+
+body {
+    font-family:Arial,sans-serif;
+    background:#faf8f3;
+    color:#333;
+}
+
+nav {
+    background:#173b2b;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo {
+    color:#e4b04a;
+    font-size:25px;
+    font-weight:bold;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    margin-left:18px;
+    font-size:14px;
+}
+
+nav a:hover { color:#e4b04a; }
+
+.hero {
+    height:400px;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1500&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1 { font-size:50px; }
+
+.content {
+    padding:70px 8%;
+    text-align:center;
+}
+
+.content h2 {
+    color:#173b2b;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.content > p {
+    max-width:700px;
+    margin:auto;
+    color:#666;
+}
+
+.dining {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:45px;
+}
+
+.item {
+    background:white;
+    padding:35px 25px;
+    border-radius:10px;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+
+.item span {
+    font-size:45px;
+}
+
+.item h3 {
+    color:#173b2b;
+    margin:15px;
+}
+
+footer {
+    background:#173b2b;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:800px) {
+    nav { flex-direction:column; }
+    nav a { display:inline-block; margin:8px 4px; }
+    .dining { grid-template-columns:1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">HOTEL AFRICANA</div>
+<div>
+<a href="Home.html">Home</a>
+<a href="about.html">About</a>
+<a href="rooms.html">Rooms</a>
+<a href="dining.html">Dining</a>
+<a href="facilities.html">Facilities</a>
+<a href="conferences.html">Conferences</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>Dining at Africana</h1>
+</section>
+
+<section class="content">
+
+<h2>Food & Hospitality</h2>
+
+<p>
+Enjoy a welcoming dining experience with a selection of meals,
+refreshments and spaces suitable for casual meals and special occasions.
+</p>
+
+<div class="dining">
+
+<div class="item">
+<span>🍛</span>
+<h3>Ugandan Cuisine</h3>
+<p>
+Discover delicious local flavours inspired by Uganda's rich culinary traditions.
+</p>
+</div>
+
+<div class="item">
+<span>🥗</span>
+<h3>International Cuisine</h3>
+<p>
+Enjoy a variety of meals suitable for international visitors and families.
+</p>
+</div>
+
+<div class="item">
+<span>☕</span>
+<h3>Coffee & Refreshments</h3>
+<p>
+Relax with a cup of coffee, tea or a refreshing drink.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Hotel Africana Kampala</p>
+</footer>
+
+</body>
+</html>
